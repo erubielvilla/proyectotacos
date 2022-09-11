@@ -1,0 +1,17 @@
+#fondo{
+    background-image: url(https://www.aprendecomohacer.com/wp-content/uploads/2020/02/tacos-mexicanos-en-plato.png);
+    background-position: center;
+
+}
+
+#fondo h1{
+    color: white;
+}
+
+#fondo h4{
+    color: white;
+}
+
+footer .container-fluid{
+    font-size: 0px;
+}
