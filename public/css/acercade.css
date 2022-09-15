@@ -1,0 +1,53 @@
+#centro3{
+	width: 800px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+	text-align: center;
+}
+
+.encabezados{
+	font-family: 'Arial black';
+	font-size: 30px;
+}
+
+.t1{
+	color: #424242;
+}
+
+.t2{
+		color: #0489B1;
+}
+
+.descripcion-pagina{
+	color: #848484;
+}
+
+.texto-nosotros{
+	text-align: left;
+}
+
+hr{
+	border-top: 1px;
+}
+
+.img-nosotros{
+	float: left;
+	margin-right: 7px;
+}
+
+#filosofia{
+	height: auto; overflow: hidden;
+}
+
+#mision, #vision, #valores{
+	width: 245px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#vision{
+	margin-right: 7px;
+	margin-left: 7px;
+}

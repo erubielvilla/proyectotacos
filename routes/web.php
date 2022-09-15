@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('tacos/index');
 });
+Route::get('/Acerca de nosotros', function () {
+    return view('tacos/acercade');
+});
+Route::get('/Contactanos', function () {
+    return view('tacos/contactanos');
+});
 
 Route::middleware([
     'auth:sanctum',
@@ -23,6 +29,6 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('tacos/index');
     })->name('dashboard');
 });
