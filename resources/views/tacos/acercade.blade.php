@@ -8,8 +8,7 @@
 	<title></title>
 </head>
 <body>
-	<div id="contenidos-paginas">
-		<div id="centro3">
+		<section id="descripcion">
 			<h2>
 				<em class="encabezados t2">Sobre Nosotros</em>
 			</h2>
@@ -54,8 +53,7 @@
 				</div>
 
 			</div>
-		</div>
-	</div>
+		</section>
 </body>
 </html>
 @stop

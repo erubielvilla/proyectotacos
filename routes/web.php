@@ -22,6 +22,9 @@ Route::get('/Acerca de nosotros', function () {
 Route::get('/Contactanos', function () {
     return view('tacos/contactanos');
 });
+Route::get('/Pedido1', function () {
+    return view('tacos/pedido1');
+});
 
 Route::middleware([
     'auth:sanctum',

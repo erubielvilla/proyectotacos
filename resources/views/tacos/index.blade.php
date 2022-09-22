@@ -17,8 +17,8 @@
 				<h1>
 					TACOS LOS HERMANOS 
 				</h1>
-        <button class="btn btn-primary">Acerca de nosotros</button>
-      </div>
+				<a class="btn btn-primary" href="/Acerca de nosotros"">Acerca de nosotros</a>
+			</div>
 		</section>
 
 		<section id="descripcion">
@@ -32,7 +32,7 @@
 				<div class="contenedor-img">
 					<article>
 						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4>Paquete 1</h4>
+						<h4><a href="/Pedido1"> Paquete 1</a></h4>
 					</article>
           <article>
 						<img src="{{ asset('img/paquete1.jpg') }}">
