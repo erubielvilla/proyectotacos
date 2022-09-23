@@ -32,7 +32,7 @@
 				<div class="contenedor-img">
 					<article>
 						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4><a href="/Pedido1"> Paquete 1</a></h4>
+						<h4><a href="/Paquete1"> Paquete 1</a></h4>
 					</article>
           <article>
 						<img src="{{ asset('img/paquete1.jpg') }}">
