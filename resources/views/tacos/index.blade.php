@@ -36,31 +36,19 @@
 					</article>
           <article>
 						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4>Paquete 2</h4>
+						<h4><a href="/Paquete2">Paquete 2 </a></h4>
 					</article>
           <article>
 						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4>Paquete 3</h4>
+						<h4><a href="/Paquete3">Paquete 3</a></h4>
 					</article>
           <article>
 						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4>Paquete 4</h4>
+						<h4><a href="/Paquete4">Paquete 4</a></h4>
 					</article>
           <article>
 						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4>Paquete 5</h4>
-					</article>
-          <article>
-						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4>Paquete 6</h4>
-					</article>
-          <article>
-						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4>Paquete 7</h4>
-					</article>
-          <article>
-						<img src="{{ asset('img/paquete1.jpg') }}">
-						<h4>Paquete 8</h4>
+						<h4><a href="/Paquete5">Paquete 5</a></h4>
 					</article>
 				</div>
 		</section>

@@ -25,6 +25,21 @@ Route::get('/Contactanos', function () {
 Route::get('/Paquete1', function () {
     return view('tacos/paquete1');
 });
+Route::get('/Paquete2', function () {
+    return view('tacos/paquete2');
+});
+Route::get('/Paquete3', function () {
+    return view('tacos/paquete3');
+});
+Route::get('/Paquete4', function () {
+    return view('tacos/paquete4');
+});
+Route::get('/Paquete5', function () {
+    return view('tacos/paquete5');
+});
+Route::get('/Pedidos', function () {
+    return view('tacos/pedidos');
+});
 
 Route::middleware([
     'auth:sanctum',

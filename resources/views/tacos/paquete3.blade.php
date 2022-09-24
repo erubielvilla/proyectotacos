@@ -29,7 +29,7 @@
                 <td>
                 @if(auth()->check())
                     <button class="btn btn-secondary"><a href="{{ URL::previous() }}">Regresar</a></button>
-                    <button class="btn btn-primary">Pedir</button>
+                    <button class="btn btn-primary"><a href="/Pedidos">Pedir</a></button>
                 @else
                     <button>Iniciar sesión</button>
                 @endif

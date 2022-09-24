@@ -22,7 +22,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Perfil</a></li>
-            <li><a class="dropdown-item" href="#">Pedidos</a></li>
+            <li><a class="dropdown-item" href="/Pedidos">Pedidos</a></li>
             <li><hr class="dropdown-divider"></li>
             <div>
          <form method="POST" action="{{ route('logout') }}">
